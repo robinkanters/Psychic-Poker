@@ -2,7 +2,6 @@ package com.robinkanters.psychicpoker
 
 class Deck(cards: List<Card>) : CardSet(cards) {
     fun draw() = removeAt(0)
-    fun drawCards(number: Int) = take(number)
 
     companion object {
         fun parse(input: String): Deck {
