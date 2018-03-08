@@ -33,17 +33,17 @@ file and select 'Run'.
 Running the CLI tool
 --------------------
 
-### From IntelliJ
+The CLI tool takes inputs as seen in the exercise example, so one line of 10 cards, separated by spaces.
+
+### Running from IntelliJ
 
 - Open the `ConsoleInterface.kt` file in `src/main/kotlin` (or use double Shift again).
 - Click the 'Play' icon in the gutter, next to the `main` function.
 
-### From the command line
+### Running from the command line
 
 - Run `./gradlew jar` to create a runnable jar. It will be placed in `build/libs`
 - Run the jar with `java -jar build/libs/pokerexercise-1.0-SNAPSHOT.jar`
-
-The CLI tool takes inputs as seen in the exercise example, so one line of 10 cards, separated by spaces.
 
 About the implementation
 ========================
